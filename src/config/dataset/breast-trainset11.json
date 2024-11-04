@@ -1,0 +1,12 @@
+{
+    "data_type": ["mut_important", "cnv_del", "cnv_amp"],
+    "drop_AR": false,
+    "cnv_levels": 3,
+    "mut_binary": true,
+    "balanced_data": false,
+    "combine_type": "union", 
+    "use_coding_genes_only": true,
+    "selected_genes": "breast_expressed_genes_and_cancer_genes_10000.csv",
+    "training_split": 11,
+    "validset_divide": true
+}

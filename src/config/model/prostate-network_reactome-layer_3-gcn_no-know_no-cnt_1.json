@@ -1,0 +1,48 @@
+{
+    "gcn": false,
+    "trainable_mask": false,
+    "full_train": false,
+    "use_bias": true,
+    "penalty": 0.001,
+    "n_hidden_layers": 3,
+    "dropout": [
+        0.5,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+    ],
+    "optimizer": "adam",
+    "activation": "tanh",
+    "add_unk_genes": false,
+    "shuffle_genes": false,
+    "samples_per_epoch": 10,
+    "select_best_model": false,
+    "verbose": "待删除",
+    "epoch": 300,
+    "shuffle": true,
+    "batch_size": 50,
+    "loss_weights": [
+        2,
+        7,
+        20,
+        54
+    ],
+    "save_gradient": false,
+    "class_weight": "auto",
+    "n_outputs": "待删除",
+    "reduce_lr_after_nepochs": {
+        "drop": 0.25,
+        "epochs_drop": 50
+    },
+    "lr": 0.001,
+    "max_f1": true,
+    "comment_for_feature_important_name": "deeplift or integratedgradients",
+    "feature_important_name": "deeplift",
+    "comment_for_baseline": "zero or mean",
+    "baseline": "zero",
+    "commet_for_network": "protein or reactom",
+    "network": "reactome"
+}
